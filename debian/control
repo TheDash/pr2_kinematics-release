@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-arm-kinematics
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-angles, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-kdl-parser, ros-hydro-moveit-core, ros-hydro-moveit-msgs, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-tf-conversions, ros-hydro-urdf
+Homepage: http://ros.org/wiki/pr2_arm_kinematics
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-arm-kinematics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-angles, ros-hydro-geometry-msgs, ros-hydro-kdl-parser, ros-hydro-moveit-core, ros-hydro-moveit-msgs, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-tf-conversions, ros-hydro-urdf
+Description: This package provides a kinematics implementation for the PR2 robot. It can be used to compute forward and inverse kinematics.
