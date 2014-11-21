@@ -1,3 +1,26 @@
+## pr2_kinematics (hydro) - 1.0.6-0
+
+The packages in the `pr2_kinematics` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro pr2_kinematics --edit` on `Fri, 21 Nov 2014 16:38:48 -0000`
+
+These packages were released:
+- `pr2_arm_kinematics`
+- `pr2_kinematics`
+
+Version of package(s) in repository `pr2_kinematics`:
+- upstream repository: https://github.com/PR2/pr2_kinematics.git
+- release repository: https://github.com/TheDash/pr2_kinematics-release.git
+- rosdistro version: `1.0.5-0`
+- old version: `1.0.5-0`
+- new version: `1.0.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.32`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## pr2_kinematics (hydro) - 1.0.5-0
 
 The packages in the `pr2_kinematics` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro pr2_kinematics --edit` on `Wed, 19 Nov 2014 01:53:33 -0000`
